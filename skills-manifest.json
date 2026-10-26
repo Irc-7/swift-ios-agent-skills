@@ -1,0 +1,309 @@
+{
+  "export_date": "2026-10-26",
+  "skill_count": 15,
+  "skills": [
+    {
+      "name": "app-intents",
+      "description": "Siri, Shortcuts, Spotlight, dan aksi aplikasi pada permukaan sistem.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/app-intents",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "5cea7941e09c3b27f472deb5a8223b5d638ed7cf9dd6be3aab789d1fdb9bad11",
+        "evals/evals.json": "5152018d5ae52e35346cbc7211d804d60c60199cfcf85bfd16acc48343e593e6",
+        "references/appintents-advanced.md": "6170993d28a9898fb8bf9b8e6a538a621d5dcd80d64bee4ee99b89f369316ddd",
+        "references/system-surfaces.md": "10a2239c53f2b6dfa69e6a0eb4e11b4d861e7ae2ad95c856286e49e0fa50e42d"
+      }
+    },
+    {
+      "name": "background-processing",
+      "description": "BGTaskScheduler, pekerjaan latar belakang, dan background transfer.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/background-processing",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "8380a9b64cf414330fc9bf37c1fb6f732ae82ecbb8495e68bdd04e4a4535c9b0",
+        "evals/evals.json": "7bd5f45b371451711f4a307e81cdce2224f9e128759fd2887da9ae6fcd9d128d",
+        "references/background-task-patterns.md": "debe9aa797dc8745629a93ff7642789b95a41a8fa6ef4f9faadf5a70a85a1e5e"
+      }
+    },
+    {
+      "name": "ios-networking",
+      "description": "URLSession, REST, WebSocket, pagination, retry, dan cache.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/ios-networking",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "0bde473fb0f2b5457a680f8b83d341e060ab054ae6eec0b69f4ab96c3ef3f251",
+        "evals/evals.json": "81237a2ab32607fda662bbd491bcc62533a6e00aa0ceaeeda669551a08b3d2d4",
+        "references/background-websocket.md": "7bf0b28c92a168287ff75830881c1080a22757d7c6b05daa2329587792a70aa3",
+        "references/file-storage-patterns.md": "8b287a2ede85a417533582f1c8f596ec36a6be214018c6960920e1c8f0d498bc",
+        "references/lightweight-clients.md": "1e717db57943addab64a057a0ea4d5dda9c0f32d94a4b7a71884d2c2e387c79c",
+        "references/network-framework.md": "cb8f664f02ade338270ff7329ff5df513863b1bbae40bbf8a44ecd85f6868ae5",
+        "references/urlsession-patterns.md": "ce25fbbeca35a7732692e44eafada3e451722dc6284fe38189f6812ebeca82b7"
+      }
+    },
+    {
+      "name": "ios-simulator",
+      "description": "Pengelolaan dan pengujian iOS Simulator dengan simctl.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/ios-simulator",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "445a7e080e068e5a4aa3a70f7d7ae96da17b1874707757a85904f63109de9435",
+        "evals/evals.json": "bbc5f55e5d881a3831b7db2e6c2f5851a60a5231dd70da200f6ef3fd48361e4e",
+        "references/simctl-commands.md": "7e13f2680274f8a49330c9c19e5da7eaffe3155b557388a641281507e15c53e0"
+      }
+    },
+    {
+      "name": "push-notifications",
+      "description": "Notifikasi lokal/APNs, rich notification, dan notification extension.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/push-notifications",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "3fbd7acaef7b3b559c68cbadbeb3e91d2160ff36454828b1f57e8f6e389e9923",
+        "evals/evals.json": "9d7ae97959c35011aa8882084ac82107d9d43ac72aa5435545c7dfd6250f79df",
+        "references/notification-patterns.md": "4f538164a098f8169f7b673e301751f7debe54a38b317d476599cf09756f8190",
+        "references/rich-notifications.md": "d52f12a5b223556a77a1cf796349fbd0cdb6d8103e1c57071df5920910fc3161"
+      }
+    },
+    {
+      "name": "storekit",
+      "description": "Pembelian dalam aplikasi dan langganan dengan StoreKit 2.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/storekit",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "af6ed4eb73b17d70d125a6d25c8b61ab9ff221909f76822c0bd644e33d46d388",
+        "evals/evals.json": "9d957c770e37132b202cf2892153a92122f624da6ff151eaf849c97394de6b91",
+        "references/app-review-guidelines.md": "3585c75bec939120fd83fc8612cc7ac237ac1160bd428b7345d4da39bb41f811",
+        "references/storekit-advanced.md": "33896c885e3c1934b812d8935d5883d5d453c6ff04703560a6632a763352d808"
+      }
+    },
+    {
+      "name": "swift-codable",
+      "description": "Model JSON/property list, encoding, dan decoding.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/swift-codable",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "19665e24b9d9e3ea30f914b548927447cb017d62ef7ecd18293070053c323f56",
+        "evals/evals.json": "0536b41214b782017cd4b688692e3f4b9ff4204d0b4df4f45618bc07da1cb2fd",
+        "references/codable-advanced-patterns.md": "e369d1388597a33e8b7c7681513615438dc694accb44325df90eed61341a97eb"
+      }
+    },
+    {
+      "name": "swift-concurrency",
+      "description": "Swift concurrency, actor, Sendable, dan keamanan data race.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/swift-concurrency",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "2b52da2783a84390dcd62c9581e904275f0af5afb4d62e4627ff7607bc40db6f",
+        "evals/evals.json": "309ed83e4aec7cb171b2cf6dcf848c0c160015e6cb48204343f601ff309ccdfa",
+        "references/approachable-concurrency.md": "c34734f83b7710d32ab80238d42e0118ac60a6e4e6f66f4aa87fc7cfc5471736",
+        "references/async-algorithms.md": "b5208a04c60b0c1769d143dd93447d929d58122081ac3abf3d81cfabdb47dfa3",
+        "references/bridging-interop.md": "7dd934160abe512614801386b829141def6bdd7b6b02b5663f768fd4dc0dc711",
+        "references/concurrency-patterns.md": "081788382dffb9ab1793c0368fd4018c389de7c7d06ea54063051d079068500f",
+        "references/diagnostics.md": "ba5d2f82c1a82d369a2bd413a0d324fa57417dd96c8d3cd8d54879d5b9313362",
+        "references/swiftui-concurrency.md": "f64a982a6061109cc47a89c37ccf202dd1e6ca64790fa3d9bd8556d938c43f2a",
+        "references/synchronization-primitives.md": "afcc1ece7a9cf7ac35a29257cae96fce062d7151effeaf65f661203c5e545f62"
+      }
+    },
+    {
+      "name": "swift-security",
+      "description": "Keychain, biometrik, CryptoKit, dan penyimpanan kredensial.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/swift-security",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "8cea390200df74842a91af09987da40ee23e38c61c1627eadfc58d1e129fcfd4",
+        "evals/evals.json": "25dee46a28fb4c8fd5b6c47a29447f4d969d094c3e1667ef610e6ee0d5d16eb3",
+        "references/biometric-authentication.md": "fdced4afaebefd560ccb08e556aa8bb0ef70f261d140707022daeefed4f7426a",
+        "references/certificate-trust.md": "f5e11d42646686688324a09d0a6707077f9db858ee69e5fe16079fab92d15128",
+        "references/common-anti-patterns.md": "2414c1af0535f0c9603b60f03181313867ae4a2b2ef32c328a231e00f7068417",
+        "references/compliance-owasp-mapping.md": "be63eabc9f792816509856a05765e28c226c3fd6c7ef8018a06f0830550f4542",
+        "references/credential-storage-patterns.md": "72d3122e42f1edf4c86ee07c4d446f8723e1ac73a3ca3e588d01be0fb82adb60",
+        "references/cryptokit-public-key.md": "fa00d22254c19a0d1ce3a0d96295fbf82c52992e7f681cd7c043645d6018ebf1",
+        "references/cryptokit-symmetric.md": "3149b818a9464327b356f6ab4db5f42b24c3f9d2709d53d961aa8bda539d5ac7",
+        "references/keychain-access-control.md": "4037d0f0936fbc2b102020ea5e690bcc428d201f92e1a499e786e7215725f583",
+        "references/keychain-fundamentals.md": "78c0907400e567150bf9e0b1d8174421952b9954e1d14e4a1e8c21b66ca34a59",
+        "references/keychain-item-classes.md": "1c0eeeb35f54fff2dd1f532943d7279326cf2684335ac6aef90fbe3ecc5f0500",
+        "references/keychain-sharing.md": "1f2654bb4717363cb805b19328a6e0fa79e6b2ab5611c97f0d11f00e9a338da3",
+        "references/migration-legacy-stores.md": "1dc3adbcabe018dee9a76ae934c5d619f32d7c07b85e75c3b6f4dc2372619b2e",
+        "references/secure-enclave.md": "4e28e05a506c3108bbda800009f84773c8bee342f4d1627db8710fc629e5b6a3",
+        "references/testing-security-code.md": "ee79e97c252bd542e25526029c58b6e0697bc4eeb8a892ca837013d4330629ff"
+      }
+    },
+    {
+      "name": "swift-testing",
+      "description": "Swift Testing, pengujian async, dan migrasi XCTest.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/swift-testing",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "d6c51a21677b09844c895e890d78f5f6bb0e2e416b538acb08dc4853c3ccadfd",
+        "evals/evals.json": "d4de5e98d4034c6bc3293005fcb4c023780a8c522c809faeeda964438988bef2",
+        "references/testing-advanced.md": "3b36958238ed8cb31490a7611453624c1e5f9481b2758974e03bc8f7ec85cdd6",
+        "references/testing-patterns.md": "9a7e4eee52e0163066bff344374a632ce236f8d191f5234b77e83eb0ad09026c"
+      }
+    },
+    {
+      "name": "swiftdata",
+      "description": "Model, query, relasi, migrasi, dan sinkronisasi SwiftData.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/swiftdata",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "122f416a02a5f543a24efab868117d5944871b641e8ece6425fa0ca106181da3",
+        "evals/evals.json": "26fc3c5fb665aa5815ae24b77adf9368e191390b38a3970f5299876647d56d21",
+        "references/core-data-coexistence.md": "ab067f53d570b5341aa8747fd92c9cbb17f0fc678dc77dd2d1de6706e113e83e",
+        "references/indexing.md": "2f0e82efeaab91d21cff221047b922df6753de5f7a022f1a0543cbcdb7e733c7",
+        "references/predicate-pitfalls.md": "3fa8fdb2af7567e87b1d04934bccb2142e80bbe83c70aa926b1c48cc56bb0c45",
+        "references/swiftdata-advanced.md": "301cc2339cc8743de8a44237b7a9a111750177c866b95a96f1b577d55e5cd341",
+        "references/swiftdata-queries.md": "1a07bcbca2dcb48f76cdc4e08ce0f41582e2fc6a05a8fb41651de06a275b56a0"
+      }
+    },
+    {
+      "name": "swiftui-expert-skill",
+      "description": "SwiftUI iOS/macOS: state, komposisi view, layout, animasi, dan migrasi API.",
+      "source_repository": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+      "source_path": "skills/swiftui-expert-skill",
+      "license": "MIT",
+      "upstream_revision_observed_on_export": "204dba7c67256a8b707ee3fbc5759a824191974f",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "3b794f9cb46efb016eafcad2fcedce7127c74d60c50a949619e0bcd2bc38351f",
+        "agents/openai.yaml": "48dc200e480dac5598a4b7d3e3635fd5431e21d9dfef77e08b724fbb9871ced0",
+        "assets/logo-small.png": "befad5069b4c95bbb3612e41e2b7fde601de7e022d8cc0d07570f0c7ec234d11",
+        "assets/logo.png": "ab58235e3739a6c83ea8e29f5847ddc65895a6aa3772e17e901dacee101258a6",
+        "assets/logo.svg": "d51b96d6df3ba250f7a47e7d74f9491ab891363e130cdd3f4e35b3fe132178d4",
+        "references/accessibility-patterns.md": "bb942dd3b31fa24aa051943a6b7754a2de45a263dda0da3ac9dc2c7ce43b14d2",
+        "references/animation-advanced.md": "ed395dcc1d26730dd45b166e98442cac008ab4714de70b32f41b23b7a995e8e5",
+        "references/animation-basics.md": "5c6e8911c4011d772db061d3438ec07491bf1c467ab87af4d56e21720a189c9f",
+        "references/animation-transitions.md": "20e5685f50588a48816d2f8d475db82109c528bf603c4a54f4a545f1b914f896",
+        "references/charts-accessibility.md": "772d1c1099a5cc7eef172a206ae60c9269da5d8b6c6a1f885854a1b04f6f619b",
+        "references/charts.md": "32dd76aae9ccfafa817bb5d6862e509ee3966d40653ab28d715348b3859c3158",
+        "references/document-apps.md": "fc392cf67384f3b4ac9be81c49560b7454d0455adef08d75da11779618d3fb1c",
+        "references/environment-patterns.md": "0425978dc6aceb1c009ff35ebd789caca6aae1315b39f3aacbd748f5b4a5a2e6",
+        "references/focus-patterns.md": "35e411675ba93ce92b9b652c804d8349b7f693a9928017b201ae802077e73ab6",
+        "references/image-optimization.md": "1b2fd159a815e4afdf6288341d3a377aa0b5f8d8fc4551c73409bd64228fb806",
+        "references/iphone-duo.md": "f1129c5806860b0d66c9855ab10e964f75c24a98fd8702c1510f64ba4ec2c19f",
+        "references/latest-apis.md": "19ba6a56dd5bf7f13c7c3032756a75a5ec04a56ca956a48c2ed4e6af530026b2",
+        "references/layout-best-practices.md": "95b8b6df0111301d4ea75c5db7b6eed2cb01bf69c4468b1cde5ef8f90f3298b7",
+        "references/liquid-glass.md": "a96ff9cbd81c37ab268cdba9971b80e7ca7c2e75a141582c60ee78fa334ae89e",
+        "references/list-patterns.md": "2002b89b5c869e54b69f4ab3e61f9a3d715fd6b56a1d5284fe900dc2353f0537",
+        "references/localization.md": "f6adcf85da40bd011e9aa585cd45cca96223f2d8f9ec4f55b5bda87c2538d574",
+        "references/macos-scenes.md": "ac464e1f81b97638d799b1482196b553e85a27d7599fe5d571f8e9dad37d1fdf",
+        "references/macos-views.md": "a82101901fadee2f6cf7b1400fedaea73bab0a07f5aafef38631cdaeee6af63d",
+        "references/macos-window-styling.md": "0c9fc677599d5488e9c58a05d6a5a4a61001d439db4cf7626c222601493437bf",
+        "references/modifier-patterns.md": "24d08e954398da0787e8dbac764bb20c53447e33260cf890c025fc915c2037cc",
+        "references/performance-patterns.md": "2e2643503ae283f2a99f31b5a97abbf141d15c61f1c6271640cfef9333940818",
+        "references/previews.md": "fdf50f169607ddb7e9c03218957df2b2d733e211f591ac86c99816ca058ede01",
+        "references/scroll-patterns.md": "82bc253cccc9f4ff11fe7af49259246dfaf8ad4d06960c90dfdeacaa97ab5bd6",
+        "references/sheet-navigation-patterns.md": "48349b929e54bf2bbc7213cc20af8bb56d2bfa5de452b58a3ea9056dbb2d8ef6",
+        "references/soft-deprecation.md": "ac907d3729e75747c6b19e9cc6a911337c05b8ff1c25695495ce7cda9d2f5548",
+        "references/state-management.md": "49a0e00334f94176d5c5a4835061238fdbc9c67dd8dce73b847718eab8a1c5a2",
+        "references/styled-text-editing.md": "f8dc9bb560107ff8f9e286e3876929f0285c2548195e0c7dda0daa6de70e58fd",
+        "references/text-patterns.md": "26b960e9c8c7f5e15e9b2e297b6bd36eb872ec4ab8a0a84f61aa9c64d50191b8",
+        "references/toolbar-patterns.md": "e57a64be79177888325ece20a4f7cf74d0b2d8d7793b7a2cf8f20ed347bfb1a1",
+        "references/trace-analysis.md": "7b0aba8e633a079bad03597c51657fc9b744035ea064fe4198b55e41e5ec4bc1",
+        "references/trace-recording.md": "8035631402352b8682ef64155ee7462365de5eea0dd2de7dbcda61bfaa8541a9",
+        "references/view-structure.md": "bf5716d78c7fc460b849d55aa8347716ec7ab8049b95900b10d5d888da10248b",
+        "references/webkit-integration.md": "73a893af77b52c05b3ea8e3e378c82bb9066cb887a2ab7485ec128bb95ba9541",
+        "scripts/analyze_trace.py": "f40d49cfd4b5afcea717560787c34dcef1574f831a55a7d846303910df539636",
+        "scripts/instruments_parser/__init__.py": "fdf7c99bed236e0fb71524b155be864a00a71af4997d6848c6c33f49fce62861",
+        "scripts/instruments_parser/causes.py": "cf6e067e5f47130562522ed27ca4f2551d0b2de669b5063db950e220e19cbd1f",
+        "scripts/instruments_parser/correlate.py": "c4bd0c6d14cc96e03cf058ae134c661ace6de5d9b95d417e742278a9c86d064b",
+        "scripts/instruments_parser/events.py": "e389fed14c398732aadb04bddeed399d4856eca24741396e3c845d4a4a95be57",
+        "scripts/instruments_parser/hangs.py": "af779727b7342186606021acad8f38dfb88778ee068a95d0a9b119f415bc5162",
+        "scripts/instruments_parser/hitches.py": "39c4a6d96fa4447709eeff98f033a2a6cac1a70b205fd543b7711e1d4759dd2f",
+        "scripts/instruments_parser/summary.py": "dc856a29008aa2218cf30fc82db133f75efc1f67580b27fb3077f17ccc365296",
+        "scripts/instruments_parser/swiftui.py": "f499b222b24c2129208284ccc61d6d0ac27bfe67831a5f7db51848f83d20fdd5",
+        "scripts/instruments_parser/time_profiler.py": "dd3ab3f6e8e41b8ad00bbbd38ac96ada12a945bd82e51c923ac912fc46bff9b6",
+        "scripts/instruments_parser/xctrace.py": "b680bddb80d7f63ff97b7ba69b1c9ddda57d4080d601e9a1a47f09e81c2870ce",
+        "scripts/instruments_parser/xml_utils.py": "f0f4476f0f1f0ce9ad5779509b59c2c77b0f7438a57d358aa76e715e7a23b4d6",
+        "scripts/record_trace.py": "7d9c33de1146a274f6ca45790a25f4421ea697893e18a0a6b2ccfb401e245891"
+      }
+    },
+    {
+      "name": "swiftui-pro",
+      "description": "Review SwiftUI: API modern, maintainability, dan performa.",
+      "source_repository": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "source_path": "swiftui-pro",
+      "license": "MIT",
+      "upstream_revision_observed_on_export": "1eac100257af9068d5f041c1a1540b1790233716",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "fc62139e262bd364cbbcab9b9f97557cd3fd6d2d4f73c4fab039d562fc324643",
+        "agents/openai.yaml": "429c39b71692d4dc86e2b616f28b7e7f56207361c5b5a0b06df4746af96d5fa3",
+        "assets/swiftui-pro-icon.png": "51a28a5834e6d251def3c562712db1e2124e6d67b62be89fe4c1ca628e37a70a",
+        "assets/swiftui-pro-icon.svg": "a15c0a3030f08ffcc442aed9b7f2f19840877e43f980ad4dfdef515e9aeb44b3",
+        "references/accessibility.md": "46f865d3e5cf63f4394e8d55628e06897bf9eec7409d69331931225eac69a198",
+        "references/api.md": "a12fb9dcc02093b560dd82e2882556d7cd2d6652edc0006eb24ebc14bc669448",
+        "references/data.md": "291a81fb0fc1befebcafe576d9e35cc8d47bb4d63baef50f6f2292300be797dd",
+        "references/design.md": "8f2d05504e4d51dc2a0d91d2b0a580457cd98d0145826e4c0bc35dc67f006793",
+        "references/hygiene.md": "18c945717a842912180c218c10e7e76b496c11a87a77c1be65a504c70850877c",
+        "references/localization.md": "54f1d15bd8f726409a72622964005d2732148da614dc022bf7729f68ab246571",
+        "references/navigation.md": "24b95bbaa01970ff0a6625a7a201d81191ab1746dbe317bd7583d1f3f7ce53a3",
+        "references/performance-plus.md": "b7c77ac07548f9f8b6440daab607b0fa22796fc498ca644e3fa9890ee7912068",
+        "references/performance.md": "82ee00cc74109dd7e6296dc872d410742a8584ad6d0bc4ae902fad0220392e38",
+        "references/resizability.md": "2e1a88a675fe2eaf326fb1a50fafae4123725e6b4278c311c875335651a60226",
+        "references/swift.md": "fda431d8d1cc58bddc38a2075d5818b3d41df9b69886e8b1f6e0370ba1f9f773",
+        "references/views.md": "e9c7ce9ef17e23b713a2565ee9d7f5db11e036adbae1a6b9c14d21d8b3dddce7"
+      }
+    },
+    {
+      "name": "swiftui-uikit-interop",
+      "description": "UIViewRepresentable, UIHostingController, dan integrasi UIKit–SwiftUI.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/swiftui-uikit-interop",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "81392e0b759c9b10872abc2fd6e43ca121fbc8f1e89cc4f256fbb3e16b553031",
+        "evals/evals.json": "639428af0e3aa951a28d8d71462dcccf8853fe002419a57b746ecec8bde98820",
+        "references/hosting-migration.md": "506c4f3841e7e01ed6b56f6c9e29fdba3ed18648df49054c19339df81c5b772c",
+        "references/representable-recipes.md": "b6efa13032f07976308b85fb56f9b06a791d79b2decf1ba148326381c4ab1795"
+      }
+    },
+    {
+      "name": "widgetkit",
+      "description": "Widget, timeline, interaksi, dan kontrol Control Center.",
+      "source_repository": "https://github.com/dpearson2699/swift-ios-skills",
+      "source_path": "skills/widgetkit",
+      "license": "PolyForm-Perimeter-1.0.0",
+      "upstream_revision_observed_on_export": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+      "snapshot": "installed local files; original install revision was not recorded",
+      "sha256": {
+        "SKILL.md": "a54b72abfc85c7fc4e6f11ed32d53ae0658f50df736e1c7b827ed0755fc8cb87",
+        "evals/evals.json": "f774ae36d263b560ff89d0c2b30f672a2a0ad09ca714cb3f39981c75d96fbfea",
+        "references/widgetkit-advanced.md": "ed93f51020e6b3b7ad9c09da4decb640285dd6bebb6e67fd66634eb3fb1b8743"
+      }
+    }
+  ]
+}
